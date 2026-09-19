@@ -1,6 +1,6 @@
 # Part 1 — Foundations (Expanded) || 20 Sep - 23 Sep
 
-## Core Concepts
+## Day 1-2: Core Concepts
 
 ### What system design actually is (and isn't)
 
@@ -74,7 +74,7 @@
 
 ---
 
-## APIs
+## Day 3-4: APIs
 
 ### What an API is
 
@@ -176,7 +176,7 @@
 
 ---
 
-# Assignment: Part 1 (Expanded)
+# Day 5: Assignment: Part 1 (Expanded)
 
 1. **Idempotency in practice**: In your spoken-english-app or portfolio backend, pick one `POST` endpoint. Explain why it's _not_ idempotent by default, and describe one way you'd make it idempotent (hint: think about idempotency keys).
 
