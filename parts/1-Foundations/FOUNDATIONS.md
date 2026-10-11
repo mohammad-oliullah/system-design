@@ -1,4 +1,4 @@
-# Part 1 — Foundations (Expanded) || 20 Sep - 23 Sep
+# Part 1 — Foundations (Expanded)
 
 ## Day 1-2: Core Concepts
 
@@ -176,16 +176,14 @@
 
 ---
 
-# Day 5: Assignment: Part 1 (Expanded)
+# Day 5: Assignment: Part 1
 
-1. **Idempotency in practice**: In your spoken-english-app or portfolio backend, pick one `POST` endpoint. Explain why it's _not_ idempotent by default, and describe one way you'd make it idempotent (hint: think about idempotency keys).
+1. **Idempotency in practice**: In your bhalobasha backend, pick one `POST` endpoint. Explain why it's _not_ idempotent by default, and describe one way you'd make it idempotent (hint: think about idempotency keys).
 
-2. **Pagination tradeoff**: You're building an endpoint to list vocabulary words in your spoken-english-app, and the table could grow to 500K+ rows. Would you use offset-based or cursor-based pagination? Justify your answer.
+2. **Pagination tradeoff**: You're building an endpoint to list bangladesh's all local area in your bhalobasha application, and the table could grow to 500K+ rows. Would you use offset-based or cursor-based pagination? Justify your answer.
 
 3. **Protocol choice**: If you were adding a live "typing indicator" feature to a chat feature, would you use plain HTTP polling, WebSockets, or UDP directly? Explain why, referencing the tradeoffs above.
 
 4. **TLS termination reasoning**: Explain in your own words why terminating TLS at a load balancer (rather than at every backend server) is a common pattern. What's the security assumption being made about the network between the load balancer and the app servers?
 
 5. **Status code audit**: Open your NestJS backend and check 5 real endpoints. Are they returning the _correct_ status codes for success and failure cases? List any you'd fix and what you'd change them to.
-
-Send these over when ready — then we'll move to Part 2: Scaling Fundamentals.
